@@ -1,0 +1,27 @@
+{
+  "getAttrs": {
+    "prefix": ["Tag::getAttrs", "tag:getAttrs"],
+    "body": "Tag::getAttrs('${1:params}');",
+    "description": "Convierte los argumentos de un metodo de parametros por nombre a un string con los atributos."
+  },
+  "create": {
+    "prefix": ["Tag::create", "tag:create"],
+    "body": "Tag::create('${1:tag}', '${2:content}', '${3:attrs}');",
+    "description": "Crea un tag."
+  },
+  "js": {
+    "prefix": ["Tag::js", "tag:js"],
+    "body": "Tag::js('${1:src}', '${2:cache}');",
+    "description": "Incluye un archivo javascript."
+  },
+  "css": {
+    "prefix": ["Tag::css", "tag:css"],
+    "body": "Tag::css('${1:src}', '${1:media}');",
+    "description": "Incluye un archivo de css."
+  },
+  "getCss": {
+    "prefix": ["Tag::getCss", "tag:getCss"],
+    "body": "Tag::getCss();",
+    "description": "Obtiene el array de hojas de estilo."
+  }
+}

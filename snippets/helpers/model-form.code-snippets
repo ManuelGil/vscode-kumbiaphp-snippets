@@ -1,0 +1,7 @@
+{
+  "create": {
+    "prefix": ["ModelForm::create", "modelform:create"],
+    "body": "ModelForm::create(${1:model}, '${2:action}');",
+    "description": "Genera un form de un modelo (objeto) automáticamente."
+  }
+}

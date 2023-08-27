@@ -1,0 +1,77 @@
+{
+  "name": "vscode-kumbiaphp-snippets",
+  "displayName": "KumbiaPHP Snippets for VSCode",
+  "description": "KumbiaPHP - snippets & autocomplete for VSCode editor",
+  "version": "1.0.0",
+  "icon": "kumbiaphp.png",
+  "license": "MIT",
+  "publisher": "imgildev",
+  "author": {
+    "name": "Manuel Gil",
+    "url": "https://github.com/ManuelGil"
+  },
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "autocomplete",
+    "autocomplete-functionality",
+    "kumbiaphp",
+    "commands",
+    "grammars",
+    "grammars-utility",
+    "php",
+    "snippets",
+    "snippets-collection",
+    "snippets-collections",
+    "snippets-library",
+    "snippets-plugin"
+  ],
+  "homepage": "https://github.com/ManuelGil/vscode-kumbiaphp-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManuelGil/vscode-kumbiaphp-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/ManuelGil/vscode-kumbiaphp-snippets/issues"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/helpers/ajax.code-snippets"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/helpers/css.code-snippets"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/helpers/flash.code-snippets"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/helpers/form.code-snippets"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/helpers/html.code-snippets"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/helpers/js.code-snippets"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/helpers/model-form.code-snippets"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/helpers/tag.code-snippets"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "link": {
+    "prefix": ["Js::link", "js:link"],
+    "body": "Js::link('${1:action}', '${2:text}', '${3:confirm}', '${4:class}', '${5:attrs}');",
+    "description": "Crea un enlace en una Aplicacion con mensaje de confirmacion respetando las convenciones de Kumbia."
+  },
+  "linkAction": {
+    "prefix": ["Js::linkAction", "js:linkAction"],
+    "body": "Js::linkAction('${1:action}', '${2:text}', '${3:confirm}', '${4:class}', '${5:attrs}');",
+    "description": "Crea un enlace a una accion con mensaje de confirmacion respetando las convenciones de Kumbia."
+  },
+  "submit": {
+    "prefix": ["Js::submit", "js:submit"],
+    "body": "Js::submit('${1:text}', '${2:confirm}', '${3:class}', '${4:attrs}');",
+    "description": "Crea un boton submit con mensaje de confirmacion respetando las convenciones de Kumbia."
+  },
+  "submitImage": {
+    "prefix": ["Js::submitImage", "js:submitImage"],
+    "body": "Js::submitImage('${1:img}', '${2:confirm}', '${3:class}', '${4:attrs}');",
+    "description": "Crea un boton de tipo imagen."
+  },
+  "add": {
+    "prefix": ["Js::add", "js:add"],
+    "body": "Js::add( '${1:file}', [${2:dependencies}]);",
+    "description": "Añade un archivo Javascript para ser incluido en el template."
+  },
+  "inc": {
+    "prefix": ["Js::inc", "js:inc"],
+    "body": "Js::inc();",
+    "description": "Incluye todos los archivo Javascript en el template añadidos con el metodo add."
+  }
+}

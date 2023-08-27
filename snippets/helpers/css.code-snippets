@@ -1,0 +1,12 @@
+{
+  "add": {
+    "prefix": ["Css::add", "css:add"],
+    "body": "Css::add('${1:file}', [${2:dependencies}]);",
+    "description": "Añade un archivo Css fuera del template para ser incluido en el template."
+  },
+  "inc": {
+    "prefix": ["Css::inc", "css:inc"],
+    "body": "Css::inc();",
+    "description": "Incluye todos los archivo Css en el template añadidos con el metodo add."
+  },
+}

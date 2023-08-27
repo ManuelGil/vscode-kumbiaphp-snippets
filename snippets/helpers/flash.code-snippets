@@ -1,0 +1,27 @@
+{
+  "show": {
+    "prefix": ["Flash::show", "flash:show"],
+    "body": "Flash::show('${1:name}', '${2:text}');",
+    "description": "Visualiza un mensaje flash."
+  },
+  "error": {
+    "prefix": ["Flash::error", "flash:error"],
+    "body": "Flash::error('${1:text}');",
+    "description": "Visualiza un mensaje de error."
+  },
+  "warning": {
+    "prefix": ["Flash::warning", "flash:warning"],
+    "body": "Flash::warning('${1:text}');",
+    "description": "Visualiza un mensaje de advertencia en pantalla."
+  },
+  "info": {
+    "prefix": ["Flash::info", "flash:info"],
+    "body": "Flash::info('${1:text}');",
+    "description": "Visualiza información en pantalla."
+  },
+  "valid": {
+    "prefix": ["Flash::valid", "flash:valid"],
+    "body": "Flash::valid('${1:text}');",
+    "description": "Visualiza información de suceso correcto en pantalla."
+  }
+}
