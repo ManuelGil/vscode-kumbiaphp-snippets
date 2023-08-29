@@ -27,4 +27,4 @@ See also the list of [contributors](https://github.com/ManuelGil/vscode-kumbiaph
 
 ## License
 
-Mustache Snippets is licensed under the MIT License - see the [MIT License](https://opensource.org/licenses/MIT) for details.
+KumbiaPHP Snippets for VSCode is licensed under the MIT License - see the [MIT License](https://opensource.org/licenses/MIT) for details.

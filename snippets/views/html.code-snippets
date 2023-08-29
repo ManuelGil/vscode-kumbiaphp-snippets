@@ -1,0 +1,8 @@
+{
+  "html": {
+    "prefix": "view:html",
+    "scope": "plaintext,html,php",
+    "body": ["<!DOCTYPE html>", "<html lang=\"es\">", "<head>", "\t<meta charset=\"<?= APP_CHARSET ?>\" >", "\t<title>${1:title}</title>", "\t<link rel=\"stylesheet\" href=\"<?= PUBLIC_PATH ?>css/style.css\" >", "</head>", "<body>", "\t$BLOCK_COMMENT_START TODO $BLOCK_COMMENT_END", "</body>", "</html>", ""],
+    "description": "Genera una plantilla html."
+  }
+}

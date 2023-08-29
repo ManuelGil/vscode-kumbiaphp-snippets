@@ -2,7 +2,7 @@
   "name": "vscode-kumbiaphp-snippets",
   "displayName": "KumbiaPHP Snippets for VSCode",
   "description": "KumbiaPHP - snippets & autocomplete for VSCode editor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icon": "kumbiaphp.png",
   "license": "MIT",
   "publisher": "imgildev",
@@ -71,6 +71,9 @@
       {
         "language": "php",
         "path": "./snippets/helpers/tag.code-snippets"
+      },
+      {
+        "path": "./snippets/views/html.code-snippets"
       }
     ]
   }
