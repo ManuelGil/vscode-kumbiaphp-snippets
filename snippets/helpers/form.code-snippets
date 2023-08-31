@@ -1,156 +1,187 @@
 {
   "getField": {
     "prefix": ["Form::getField", "form:getField"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::getField('${1:field}', ${2:value}, ${3:is_check}, ${4:filter}, ${5:check});",
     "description": "Obtiene el valor de un componente tomado del mismo valor del nombre del campo y formulario que corresponda a un atributo del mismo nombre que sea un string, objeto o array."
   },
   "getFieldData": {
     "prefix": ["Form::getFieldData", "form:getFieldData"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::getFieldData('${1:field}', ${2:value}, ${3:filter});",
     "description": "Obtiene el valor de un componente tomado del mismo valor del nombre del campo y formulario que corresponda a un atributo del mismo nombre que sea un string, objeto o array."
   },
   "getFieldDataCheck": {
     "prefix": ["Form::getFieldDataCheck", "form:getFieldDataCheck"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::getFieldDataCheck('${1:field}', '${2:checkValue}', ${3:checked});",
     "description": "Obtiene el valor de un componente check tomado del mismo valor del nombre del campo y formulario que corresponda a un atributo del mismo nombre que sea un string, objeto o array."
   },
   "input": {
     "prefix": ["Form::input", "form:input"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::input('${1:type}', '${2:field}', '${3:attrs}', '${4:value}');",
     "description": "Crea un campo input."
   },
   "open": {
     "prefix": ["Form::open", "form:open"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::open('${1:action}', '${2:method}', '${3:attrs}');",
     "description": "Crea una etiqueta de formulario."
   },
   "openMultipart": {
     "prefix": ["Form::openMultipart", "form:openMultipart"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::openMultipart('${1:action}', '${2:attrs}');",
     "description": "Crea una etiqueta de formulario multipart."
   },
   "close": {
     "prefix": ["Form::close", "form:close"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::close();",
     "description": "Crea una etiqueta para cerrar un formulario."
   },
   "submit": {
     "prefix": ["Form::submit", "form:submit"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::submit('${1:text}', '${2:attrs}');",
     "description": "Crea un botón de submit para el formulario actual."
   },
   "reset": {
     "prefix": ["Form::reset", "form:reset"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::reset('${1:text}', '${2:attrs}');",
     "description": "Crea un botón reset."
   },
   "button": {
     "prefix": ["Form::button", "form:button"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::button('${1:text}', '${2:attrs}', '${3:type}', '${4:value}');",
     "description": "Crea un botón."
   },
   "label": {
     "prefix": ["Form::label", "form:label"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::label('${1:text}', '${2:field}', '${4:attrs}');",
     "description": "Crea un label."
   },
   "text": {
     "prefix": ["Form::text", "form:text"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::text('${1:field}', '${2:attrs}', '${3:value}');",
     "description": "Crea un campo text."
   },
   "select": {
     "prefix": ["Form::select", "form:select"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::select('${1:field}', [${2:data}], '${3:attrs}', '${4:value}', '${5:blank}', '${6:itemId}', '${7:show}');",
     "description": "Crea un campo select."
   },
   "selectValue": {
     "prefix": ["Form::selectValue", "form:selectValue"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::selectValue(${1:item}, '${2:key}', '${3:id}');",
     "description": "Retorna el value de un item de un select."
   },
   "selectedValue": {
     "prefix": ["Form::selectedValue", "form:selectedValue"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::selectedValue('${1:value}', '${2:key}');",
     "description": "Retorna el atributo para que quede seleccionado el item de un select."
   },
   "selectShow": {
     "prefix": ["Form::selectShow", "form:selectShow"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::selectShow('${1:item}', '${2:show}');",
     "description": "Retorna el valor a mostrar del item del select."
   },
   "check": {
     "prefix": ["Form::check", "form:check"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::check('${1:field}', '${2:checkValue}', '${3:attrs}', ${4:checked});",
     "description": "Crea un campo checkbox."
   },
   "radio": {
     "prefix": ["Form::radio", "form:radio"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::radio('${1:field}', '${2:radioValue}', '${3:attrs}', ${4:checked});",
     "description": "Crea un campo radio button."
   },
   "submitImage": {
     "prefix": ["Form::submitImage", "form:submitImage"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::submitImage('${1:img}', '${2:attrs}');",
     "description": "Crea un botón de tipo imagen."
   },
   "hidden": {
     "prefix": ["Form::hidden", "form:hidden"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::hidden('${1:field}', '${2:attrs}', '${3:value}');",
     "description": "Crea un campo hidden."
   },
   "password": {
     "prefix": ["Form::password", "form:password"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::password('${1:field}', '${2:attrs}', '${3:value}');",
     "description": "Crea un campo passwordop."
   },
   "dbSelect": {
     "prefix": ["Form::dbSelect", "form:dbSelect"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::dbSelect('${1:field}', '${2:show}', [${3:data}], '${4:blank}', '${5:attrs}', '${6:value}');",
     "description": "Crea un campo select que toma los valores de un array de objetos."
   },
   "file": {
     "prefix": ["Form::file", "form:file"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::file('${1:field}', '${2:attrs}');",
     "description": "Crea un campo file."
   },
   "textarea": {
     "prefix": ["Form::textarea", "form:textarea"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::textarea('${1:field}', '${2:attrs}', '${3:value}');",
     "description": "Crea un campo textarea."
   },
   "date": {
     "prefix": ["Form::date", "form:date"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::date('${1:field}', '${2:attrs}', '${3:value}');",
     "description": "Crea un campo fecha nativo (HTML5)."
   },
   "datepicker": {
     "prefix": ["Form::datepicker", "form:datepicker"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::datepicker('${1:field}', '${2:class}', '${3:attrs}', '${4:value}');",
     "description": "Crea un campo de texo para fecha (Requiere JS )."
   },
   "time": {
     "prefix": ["Form::time", "form:time"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::time('${1:field}', '${2:attrs}', '${3:value}');",
     "description": "Crea un campo tiempo nativo (HTML5)."
   },
   "datetime": {
     "prefix": ["Form::datetime", "form:datetime"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::datetime('${1:field}', '${2:attrs}', '${3:value}');",
     "description": "Crea un campo fecha/tiempo nativo (HTML5)."
   },
   "number": {
     "prefix": ["Form::number", "form:number"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::number('${1:field}', '${2:attrs}', '${3:value}');",
     "description": "Crea un campo numerico nativo (HTML5)."
   },
   "url": {
     "prefix": ["Form::url", "form:url"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::url('${1:field}', '${2:attrs}', '${3:value}');",
     "description": "Crea un campo url nativo (HTML5)."
   },
   "email": {
     "prefix": ["Form::email", "form:email"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Form::email('${1:field}', '${2:attrs}', '${3:value}');",
     "description": "Crea un campo email nativo (HTML5)."
   }

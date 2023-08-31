@@ -1,61 +1,73 @@
 {
   "link": {
     "prefix": ["Html::link", "html:link"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::link('${1:action}', '${2:text}', '${3:attrs}');",
     "description": "Crea un enlace usando la constante PUBLIC_PATH, para que siempre funcione."
   },
   "linkAction": {
     "prefix": ["Html::linkAction", "html:linkAction"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::linkAction('${1:action}', '${2:text}', '${3:attrs}');",
     "description": "Crea un enlace a una acción del mismo controller que estemos."
   },
   "img": {
     "prefix": ["Html::img", "html:img"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::img('${1:src}', '${2:alt}', '${3:attrs}');",
     "description": "Permite incluir una imagen, por defecto va la carpeta public/img/."
   },
   "meta": {
     "prefix": ["Html::meta", "html:meta"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::meta('${1:content}', '${2:attrs}');",
     "description": "Crea un metatag."
   },
   "includeMetatags": {
     "prefix": ["Html::includeMetatags", "html:includeMetatags"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::includeMetatags();",
     "description": "Incluye los metatags."
   },
   "lists": {
     "prefix": ["Html::lists", "html:lists"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::lists([${1:array}], '${2:type}', '${3:attrs}');",
     "description": "Crea una lista a partir de un array."
   },
   "includeCss": {
     "prefix": ["Html::includeCss", "html:includeCss"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::includeCss();",
     "description": "Incluye los CSS."
   },
   "headLink": {
     "prefix": ["Html::headLink", "html:headLink"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::headLink('${1:href}', '${2:attrs}');",
     "description": "Enlaza un recurso externo."
   },
   "headLinkAction": {
     "prefix": ["Html::headLinkAction", "html:headLinkAction"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::headLinkAction('${1:action}', '${2:attrs}');",
     "description": "Enlaza una accion."
   },
   "headLinkResource": {
     "prefix": ["Html::headLinkResource", "html:headLinkResource"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::headLinkResource('${1:resource}', '${2:attrs}');",
     "description": "Enlaza un recurso de la aplicacion."
   },
   "includeHeadLinks": {
     "prefix": ["Html::includeHeadLinks", "html:includeHeadLinks"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::includeHeadLinks();",
     "description": "Incluye los links para el head."
   },
   "gravatar": {
     "prefix": ["Html::gravatar", "html:gravatar"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Html::gravatar('${1:email}', '${2:alt}', ${3:size}, '${4:default}');",
     "description": "Incluye imágenes de gravatar.com."
   }

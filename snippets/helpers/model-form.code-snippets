@@ -1,6 +1,7 @@
 {
   "create": {
     "prefix": ["ModelForm::create", "modelform:create"],
+    "scope": "plaintext,html,php,phtml",
     "body": "ModelForm::create(${1:model}, '${2:action}');",
     "description": "Genera un form de un modelo (objeto) automáticamente."
   }

@@ -1,36 +1,43 @@
 {
   "link": {
     "prefix": ["Ajax::link", "ajax:link"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Ajax::link('${1:action}', '${2:text}', '${3:update}', '${4:class}', '${5:attrs}');",
     "description": "Crea un enlace en una Aplicación actualizando la capa con ajax."
   },
   "linkAction": {
     "prefix": ["Ajax::linkAction", "ajax:linkAction"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Ajax::linkAction('${1:action}', '${2:text}', '${3:update}', '${4:class}', '${5:attrs}');",
     "description": "Crea un enlace a una acción actualizando la capa con ajax."
   },
   "linkConfirm": {
     "prefix": ["Ajax::linkConfirm", "ajax:linkConfirm"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Ajax::linkConfirm('${1:action}', '${2:text}', '${3:update}', '${4:confirm}', '${5:class}', '${6:attrs}');",
     "description": "Crea un enlace en una Aplicación actualizando la capa con ajax con mensaje de confirmación."
   },
   "linkActionConfirm": {
     "prefix": ["Ajax::linkActionConfirm", "ajax:linkActionConfirm"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Ajax::linkActionConfirm('${1:action}', '${2:text}', '${3:update}', '${4:confirm}', '${5:class}', '${6:attrs}');",
     "description": "Crea un enlace a una acción actualizando la capa con ajax con mensaje de confirmación."
   },
   "select": {
     "prefix": ["Ajax::select", "ajax:select"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Ajax::select('${1:field}', [${2:data}], '${3:update}', '${4:action}', '${5:class}', '${6:attrs}');",
     "description": "Lista desplegable para actualizar usando ajax que toma los valores de un array de objetos."
   },
   "dbSelect": {
     "prefix": ["Ajax::dbSelect", "ajax:dbSelect"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Ajax::dbSelect('${1:field}', '${2:show}', [${3:data}], '${4:update}', '${5:action}', '${6:blank}', '${7:class}', '${8:attrs}');",
     "description": "Lista desplegable para actualizar usando ajax que toma los valores de un array de objetos."
   },
   "form": {
     "prefix": ["Ajax::form", "ajax:form"],
+    "scope": "plaintext,html,php,phtml",
     "body": "Ajax::form('${1:update}', '${2:action}', '${3:class}', '${4:methodost}'', '${5:attrs}');",
     "description": "Genera un formulario Ajax."
   }
